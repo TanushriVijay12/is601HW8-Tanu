@@ -46,4 +46,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kaw393939/devops_demo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/devops_demo:latest
